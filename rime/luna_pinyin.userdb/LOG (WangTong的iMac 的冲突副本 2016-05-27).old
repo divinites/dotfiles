@@ -1,0 +1,9 @@
+2016/05/25-20:20:23.744435 7fff7ceca000 Recovering log #3
+2016/05/25-20:20:23.752824 7fff7ceca000 Level-0 table #5: started
+2016/05/25-20:20:23.757533 7fff7ceca000 Level-0 table #5: 274308 bytes OK
+2016/05/25-20:20:23.757648 7fff7ceca000 Recovering log #365
+2016/05/25-20:20:23.760193 7fff7ceca000 Level-0 table #6: started
+2016/05/25-20:20:23.761520 7fff7ceca000 Level-0 table #6: 54624 bytes OK
+2016/05/25-20:20:23.762418 7fff7ceca000 Delete type=0 #3
+2016/05/25-20:20:23.762530 7fff7ceca000 Delete type=0 #365
+2016/05/25-20:20:23.762624 7fff7ceca000 Delete type=3 #2

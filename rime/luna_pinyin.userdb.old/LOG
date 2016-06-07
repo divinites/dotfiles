@@ -1,0 +1,5 @@
+2016/04/09-19:45:55.768865 7000003a6000 Log #315: 0 ops saved to Table #316 OK
+2016/04/09-19:45:55.769063 7000003a6000 Archiving /Users/divinites/Library/Rime/luna_pinyin.userdb/000315.log: OK
+2016/04/09-19:45:55.775421 7000003a6000 Table #313: 6820 entries OK
+2016/04/09-19:45:55.775868 7000003a6000 Archiving /Users/divinites/Library/Rime/luna_pinyin.userdb/MANIFEST-000313: OK
+2016/04/09-19:45:55.776964 7000003a6000 **** Repaired leveldb /Users/divinites/Library/Rime/luna_pinyin.userdb; recovered 1 files; 274152 bytes. Some data may have been lost. ****
