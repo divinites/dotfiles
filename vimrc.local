@@ -1,0 +1,18 @@
+set directory=$HOME/.vimswap//
+
+
+" Latex Settings {{{{
+autocmd Filetype tex setl updatetime=1
+autocmd Filetype tex setlocal textwidth=120
+autocmd BufRead, BufNewFile *.tex set textwidth=120
+let g:livepreview_previewer = 'open -a texshop'
+let g:tex_conceal = ""
+" }}}}
+
+" ShortCut {{{{
+nmap <F5> :LLPStartPreview<cr>
+
+
+
+
+" }}}}
