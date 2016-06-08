@@ -5,8 +5,10 @@ set directory=$HOME/.vimswap//
 autocmd Filetype tex setl updatetime=1
 autocmd Filetype tex setlocal textwidth=120
 autocmd BufRead, BufNewFile *.tex set textwidth=120
+let g:airline_powerline_fonts = 1
 let g:livepreview_previewer = 'open -a texshop'
 let g:tex_conceal = ""
+let g:airline_theme = "jellybeans"
 " }}}}
 
 " ShortCut {{{{
