@@ -11,6 +11,13 @@ let g:tex_conceal = ""
 let g:airline_theme = "jellybeans"
 " }}}}
 
+" vim-instant-markdown {{{
+let g:instant_markdown_autostart = 0
+
+" }}}
+
+
+
 " ShortCut {{{{
 nmap <F5> :LLPStartPreview<cr>
 

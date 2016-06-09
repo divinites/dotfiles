@@ -2,5 +2,6 @@
     if count(g:spf13_bundle_groups, 'latex')
         Bundle 'lervag/vimtex'
         Bundle 'xuhdev/vim-latex-live-preview'
+        Bundle 'suan/vim-instant-markdown'
     endif
 " }
