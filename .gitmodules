@@ -10,3 +10,6 @@
 [submodule "rime-config"]
 	path = rime-config
 	url = https://github.com/divinites/rime-config
+[submodule "ssh"]
+	path = ssh
+	url = https://github.com/divinites/ssh
