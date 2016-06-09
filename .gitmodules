@@ -7,3 +7,6 @@
 [submodule "solarized"]
 	path = solarized
 	url = git://github.com/altercation/solarized
+[submodule "rime-config"]
+	path = rime-config
+	url = https://github.com/divinites/rime-config
