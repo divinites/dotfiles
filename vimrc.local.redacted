@@ -15,7 +15,8 @@ let g:airline_theme = "jellybeans"
 let g:instant_markdown_autostart = 1
 
 "github-issues
-let g:github_access_token = "00b1efeeee5199997ac0905afb1f7320b47ea01f"
+let g:github_access_token = # briefcase(github_access_token)
+
 
 
 

@@ -5,3 +5,8 @@
         Bundle 'suan/vim-instant-markdown'
     endif
 " }
+"  GitHub {
+    if count(g:spf13_bundle_groups, 'github')
+        Bundle 'jaxbot/github-issues.vim'
+    endif
+"  }
