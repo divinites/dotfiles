@@ -6,7 +6,7 @@ export PATH="$PATH:/Users/divinites/.cargo/bin"
 export PYTHONPATH="${PYTHONPATH}:/Users/divinites/Dropbox/usr/lib"
 # export BRIEFCASE_DOTFILES_PATH="~/dropbox/dotfiles"
 
-chmod -R 400 ~/.ssh
+# chmod -R 400 ~/.ssh
 # eval "$(pyenv init -)"
 # eval "$(docker-machine env default)"
 # test -e ${HOME}/.iterm2_shell_integration.bash && source ${HOME}/.iterm2_shell_integration.bash
