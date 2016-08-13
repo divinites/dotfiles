@@ -1,7 +1,7 @@
 #! /bin/sh
 
-apt-get install wget curl python-pip tmux thefuck git vim-nox-py2
-gem install briefcase
+sudo apt-get install wget curl python-pip tmux thefuck git vim-nox-py2
+sudo gem install briefcase
 briefcase git remote add origin https://github.com/divinites/dotfiles
 briefcase git pull origin linux
 briefcase git submodule update --init
