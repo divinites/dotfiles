@@ -49,7 +49,7 @@ ZSH_THEME="random"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git python battery)
 
 # User configuration
 
@@ -86,3 +86,5 @@ source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval "$(thefuck --alias)"
 source ~/.zprofile
 export PATH="/usr/local/sbin:$PATH"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
