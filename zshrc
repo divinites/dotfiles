@@ -93,4 +93,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 if [ -d "/usr/local/caffe" ]; then
     export PYTHONPATH="$PYTHONPATH:/usr/local/caffe/python"
 fi
-
+alias macmini='ssh twang210@129.215.48.9'
