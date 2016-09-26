@@ -1,8 +1,6 @@
 #! /bin/sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install ruby wget tmux git zsh
-brew install python --framework
-brew install python3 --framework
+sudo apt-get install ruby ruby-dev wget tmux git zsh python-dev python3-dev
 gem install briefcase
 cd ~
 mkdir .dotfiles
