@@ -10,3 +10,6 @@
 [submodule "ssh"]
 	path = ssh
 	url = https://github.com/divinites/ssh
+[submodule "rust"]
+	path = rust
+	url = git@github.com:rust-lang/rust.git

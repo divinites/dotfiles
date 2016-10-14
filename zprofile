@@ -4,6 +4,7 @@ export LC_ALL=en_GB.UTF-8
 export PATH="$PATH:/Users/divinites/dropbox/usr/bin"
 export PATH="$PATH:/Users/divinites/.cargo/bin"
 export PYTHONPATH="${PYTHONPATH}:/Users/divinites/Dropbox/usr/lib"
+ssh-key -p /Users/divinites/.ssh -i vagrant_key ghtorrent
 # export BRIEFCASE_DOTFILES_PATH="~/dropbox/dotfiles"
 
 # chmod -R 400 ~/.ssh
