@@ -49,7 +49,7 @@ ZSH_THEME="random"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python battery)
+plugins=(git python battery brew gem git-extras github osx pip tmux)
 
 # User configuration
 
@@ -99,3 +99,7 @@ export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
 alias macmini='ssh twang210@129.215.48.9'
 alias startconda='source /Users/divinites/anaconda3/bin/activate'
 alias lookfor='ps auux | grep -v "grep"| grep'
+alias osmc='ssh osmc@osmc.local'
+# alias ls='uutils ls'disable-internal-when-external-connected.js
+EXTERNAL_KEYBOARD_ID=256 INTERNAL_KEYBOARD_ID=628 node ~/.dotfiles/disable-internal-when-external-connected.js 2>&1 &
+
