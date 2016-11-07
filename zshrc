@@ -100,11 +100,4 @@ alias macmini='ssh twang210@129.215.48.9'
 alias startconda='source /Users/divinites/anaconda3/bin/activate'
 alias lookfor='ps auux | grep -v "grep"| grep'
 alias osmc='ssh osmc@osmc.local'
-keyboards=$(lookfor disable-internal-when-external-connected.js)
- if [ -n "$keyboards" ]
- then
-    echo "keyboard daemon is already running!"
-else
-    EXTERNAL_KEYBOARD_ID=256 INTERNAL_KEYBOARD_ID=628 node ~/.dotfiles/disable-internal-when-external-connected.js >/dev/null &
-fi
 
