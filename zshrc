@@ -57,7 +57,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -83,14 +83,17 @@ eval $(thefuck --alias)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-eval "$(thefuck --alias)"
+# eval "$(thefuck --alias)"
 source ~/.zprofile
 export EDITOR=vim
 export PATH="/usr/local/sbin:$PATH"
 export RUST_SRC_PATH="/Users/divinites/.rustc-1.11.0/src"
 export WORKON_HOME=~/.virtualenvs
+<<<<<<< HEAD
 export MKL_INTERFACE_LAYER=GNU,LP64
 export MKL_THREADING_LAYER=GNU
+=======
+>>>>>>> 3ec7fa5b6f8f9e229ecc3b8b9b2345f41e7bdbe5
 # source /usr/local/bin/virtualenvwrapper.sh
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
