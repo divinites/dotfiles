@@ -89,15 +89,15 @@ export EDITOR=vim
 export PATH="/usr/local/sbin:$PATH"
 export RUST_SRC_PATH="/Users/divinites/.rustc-1.11.0/src"
 export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+export MKL_INTERFACE_LAYER=GNU,LP64
+export MKL_THREADING_LAYER=GNU
+# source /usr/local/bin/virtualenvwrapper.sh
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-if [ -d "/usr/local/caffe" ]; then
-    export PYTHONPATH="$PYTHONPATH:/usr/local/caffe/python"
-fi
 PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
-alias macmini='ssh twang210@129.215.48.9'
+alias macmini='ssh divinites@129.215.48.9'
+alias haas='ssh -i ~/.ssh/linode_rsa divinites@85.159.208.28'
 alias startconda='source /Users/divinites/anaconda3/bin/activate'
 alias lookfor='ps auux | grep -v "grep"| grep'
 alias osmc='ssh osmc@osmc.local'
-
+alias neo='/Users/divinites/anaconda3/bin/cycli -h uebs-mac006.uebs.ed.ac.uk -P 7474 -u neo4j -p halflife'
